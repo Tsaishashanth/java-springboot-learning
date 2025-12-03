@@ -20,6 +20,9 @@ public class Strings {
         boolean ignore = name.equalsIgnoreCase("shashanth");
         boolean no = name.isEmpty();
 
+        //substrings
+        String username = name.substring(0,3);
+
 
 
     }
