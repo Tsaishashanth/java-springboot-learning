@@ -28,17 +28,17 @@ public class testscanner {
 
         //area of triangle example code
 
-        double width = 0;
-        double height = 0;
+        double length = 0;
+        double breadth = 0;
         double area =0;
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("enter length here");
-        double length = scanner.nextDouble();
+        length = scanner.nextDouble();
 
         System.out.println("enter breadth");
-        double breadth = scanner.nextDouble();
+         breadth = scanner.nextDouble();
 
         double result = 0.5 * length * breadth;
         System.out.println("area of triangle is: " + result);
