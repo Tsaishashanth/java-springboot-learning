@@ -25,6 +25,24 @@ public class testscanner {
 
         System.out.println(name + " " + age + " " +gpa + " " + isStudent);
 
+
+        //area of triangle example code
+
+        double width = 0;
+        double height = 0;
+        double area =0;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("enter length here");
+        double length = scanner.nextDouble();
+
+        System.out.println("enter breadth");
+        double breadth = scanner.nextDouble();
+
+        double result = 0.5 * length * breadth;
+        System.out.println("area of triangle is: " + result);
+
         sc.close();//we have to close the scanner whenever we are done
     }
 }
