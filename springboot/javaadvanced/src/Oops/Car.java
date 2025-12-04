@@ -11,6 +11,7 @@ public class Car {
     String engine;
 
 
+
     //methods
     void start(){
         isRunning = true;
@@ -22,9 +23,10 @@ public class Car {
     }
     //constructor calling
 
-    Car(String used, int owners) {
-        this.used = used;
+    Car(String name, int owners) {
+        this.name = name;
         this.owners = owners;
+
     }
     Car(String engine,int owners, String used) {
         this.engine = engine;

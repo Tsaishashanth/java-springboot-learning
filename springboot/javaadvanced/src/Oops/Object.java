@@ -21,6 +21,22 @@ public class Object {
         car.start();
 
         //Array objects
+        //Car car = new Car[]; not allowed
+        Car car1 = new Car("supra", 2);
+        Car car2 = new Car("viper", 4);
+        Car car3 = new Car("charger", 5);
+
+        //we can write like this also
+        Car[] arrcar = {car1, car2, car3};
+        Car[] anocar = {new Car("supra", 2),
+        new Car("supra", 2),
+        new Car("supra", 2)
+        };
+
+
+        for(Car item: arrcar) {
+            System.out.println(item.name);
+        }
 
 
     }
