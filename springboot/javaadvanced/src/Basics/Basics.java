@@ -1,4 +1,7 @@
 package Basics;
+
+import org.w3c.dom.ls.LSOutput;
+
 //how java code gets executed
 //sourcecode -> javac -> bytecode
 public class Basics {
@@ -19,7 +22,7 @@ public class Basics {
         System.out.printf("you are  %d years old\n", age);
         //for double we use %f, %b for boolean
 
-        System.out.printf("%s id %d years old", name,age);
+        System.out.printf("%s id %d years old", name, age);
         //precision
 
         double price = 100.15;
@@ -29,7 +32,38 @@ public class Basics {
         System.out.printf("4%d\n", age); //gives 4 spaces to digits like 1 - ---1
         //( if we add this, it puts negative numbers in this bracket , if we add space it puts
 
+        //arrays
+        //Arrays.sort()
+        //Arrays.fill(array, "")
+
+         System.out.println(addNumbers(5, 10, 15, 20));
     }
+    //varargs -> variable arguments
+
+    public static int addNumbers(int... nums) {  //here what varargs does is , it takes input and turns to array
+        int sum = 0;
+        for (int n : nums) { //enhanced for loop
+            sum += n;
+        }
+
+        //2d array
+        String[] fruits = {"apple", "orange", "banana"};
+        String[] veggies = {"apple", "orange", "banana"};
+        String[] protein = {"apple", "orange", "banana"};
+
+        String[][] groceries = {fruits, veggies, protein};
+
+        for(String[] foods: groceries) {
+            for(String food: foods) {
+                System.out.println(food + " ");
+            }
+            System.out.println();
+        }
+        return sum;
+
+    }
+
+
 }
 
 //single lined comment
