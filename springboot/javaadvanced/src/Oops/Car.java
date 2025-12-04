@@ -1,6 +1,6 @@
 package Oops;
 
-public class Car {
+public class Car {  //inheritance extended animal class
 
     String name = "dodge charger";
     int year = 2016;
@@ -32,6 +32,9 @@ public class Car {
         this.engine = engine;
         this.owners = owners;
         this.used = used;
+    }
+    Car(){
+        System.out.println("empty parameters");
     }
 
 }
