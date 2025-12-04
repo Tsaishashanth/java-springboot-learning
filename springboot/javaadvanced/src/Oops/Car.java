@@ -36,5 +36,8 @@ public class Car {  //inheritance extended animal class
     Car(){
         System.out.println("empty parameters");
     }
+    void ride(){//this is example for method override
+        System.out.println("riding");
+    }
 
 }

@@ -6,8 +6,10 @@ public class Inheritance {
         // here we have taken animal and car class for example
 
 
-        //parent class can create obj of child class -> upcasting
+        //parent class only can create obj of child class -> upcasting
          Car c2 = new Animal();
+         //here obj is animal but we can only use Car methods
+         //c2.stay();
 //         Animal a2 = new Car("test", 3); //this gives an error
 
         Animal a1 = new Animal();  //child class'

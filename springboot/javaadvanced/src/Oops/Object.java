@@ -9,6 +9,8 @@ public class Object {
 
         Car car = new Car ("yes", 3); //here since because int oops package we have car class this is not giving error
         Object obj = new Object(); //object instance from the same class
+        //this basically means rhs-> new object() creates a car in memory so obj is car
+        //lhs object obj ->is just a box, box is labled as animal ,it can hold any object tha is an animal so we can only use Object methods
 
         System.out.println(car.name);
         System.out.println(car.year);
