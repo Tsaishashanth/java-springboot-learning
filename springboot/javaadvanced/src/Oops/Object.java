@@ -20,6 +20,8 @@ public class Object {
         //calling the methods
         car.start();
 
+        //Array objects
+
 
     }
 }

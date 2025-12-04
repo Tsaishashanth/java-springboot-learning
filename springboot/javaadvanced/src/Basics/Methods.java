@@ -14,7 +14,7 @@ public class Methods {
         System.out.printf("i like debugging the bugs in %s and it is %d years old",name, age);
     }
 
-    //overload methods -> methods that share same name but different parameters
+    //overload methods -> methods that share same name but different parameters this doesnt affect the code
     //this is also oops concept  compile time polymorphism -> which tells in compile time only
     static double add ( double a, double b) { // same method but different paramets
         return a + b;

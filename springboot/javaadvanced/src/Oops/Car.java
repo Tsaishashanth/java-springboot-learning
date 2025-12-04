@@ -8,6 +8,7 @@ public class Car {
     boolean isRunning = true;
     String used;
     int owners;
+    String engine;
 
 
     //methods
@@ -24,6 +25,11 @@ public class Car {
     Car(String used, int owners) {
         this.used = used;
         this.owners = owners;
+    }
+    Car(String engine,int owners, String used) {
+        this.engine = engine;
+        this.owners = owners;
+        this.used = used;
     }
 
 }
