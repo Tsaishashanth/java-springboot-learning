@@ -10,6 +10,9 @@ public interface InterfaceA {
     //interfaces cannot have constructors -> cannot create objects directly
     //method in child class must be public(cannot reduce the visibility)
 
+    //impt classes can inherit multiple interfaces unlike inheritance
+    //public class fish implements prey,predator
+
     int age = 2;
     int number =5;
 
