@@ -1,4 +1,4 @@
-package advanced;
+package Advanced;
 
 public class Main {
     public static void main(String[] args) {

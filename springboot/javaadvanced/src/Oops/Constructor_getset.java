@@ -1,6 +1,6 @@
 package Oops;
 
-public class Constructor {
+public class Constructor_getset {
     //constructor = special method to initialize objects
     //              you can pass arguments to a constructor
     //              and set up initial values

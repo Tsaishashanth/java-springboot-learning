@@ -9,6 +9,7 @@ public class Encapsulation  extends Car{
     private String name = "private";
 
     //encapsulation prefer in privacy so inorder to acess these variables we need to use methods
+    // the below mentioned get,set are called getters and setters methods we use them to acces privated variables
     public int getAge() {
         return age;
     }
