@@ -15,6 +15,7 @@ public class Object {
         System.out.println(car.name);
         System.out.println(car.year);
         System.out.println(car.isRunning);
+        //System.out.println(Car); //this gives hashcode to instead to print this we use tostring
 
         //changing values
         car.isRunning = false;

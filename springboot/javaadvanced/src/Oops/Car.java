@@ -28,6 +28,11 @@ public class Car {  //inheritance extended animal class
         this.owners = owners;
 
     }
+    @Override  //we use override here to warn java we are overidng // we use this because we if want to print car() it will give error so this will override
+    public String toString(){
+        return this.name + this.owners;   //here we get this when we call soutcar(); java calls toString by default so no constructor needed to pass this code
+
+    }
     Car(String engine,int owners, String used) {
         this.engine = engine;
         this.owners = owners;
