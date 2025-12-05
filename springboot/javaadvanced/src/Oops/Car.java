@@ -29,8 +29,8 @@ public class Car {  //inheritance extended animal class
         this.owners = owners;
 
     }
-    @Override  //we use override here to warn java we are overidng // we use this because we if want to print car() it will give error so this will override
-    public String toString(){
+    @Override  //we use override here to warn java we are overidng
+    public String toString(){// we use this because we if want to print car() it will give error so this will override
         return this.name + this.owners;   //here we get this when we call soutcar(); java calls toString by default so no constructor needed to pass this code
 
     }
@@ -54,5 +54,18 @@ public class Car {  //inheritance extended animal class
 
 
     }
+    public static void main(String[] args) {
+        Encapsulation en = new Encapsulation(); // we are using this example to show case encapsulation from encapsulation class
+        //en.age = 5; // we cant chage the age because it is an private variable
 
+        //the only way to acess them are using the method from their class
+        en.getAge();
+        en.getName();
+        //this prints output and this is the only way we can access them
+
+        //if we want to modify name,age we have to use methods
+        en.Setage(5);
+        en.Setname("private");
+
+    }
 }
