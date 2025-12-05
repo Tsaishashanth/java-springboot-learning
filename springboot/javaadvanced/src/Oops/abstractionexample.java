@@ -4,6 +4,8 @@ public abstract  class abstractionexample {
 
     abstract double area();  // abstract methods have no body so child must write the code for them and this doesnt return
 
+    //abstract clases can have variables , but they are not forced to be final and static like the interfaces
+
     double canhave() { //abstract classes can have normal methods too
         return 0;
     }
