@@ -9,6 +9,7 @@ public class Car {  //inheritance extended animal class
     String used;
     int owners;
     String engine;
+    String call;
 
 
 
@@ -43,6 +44,15 @@ public class Car {  //inheritance extended animal class
     }
     void ride(){//this is example for method override
         System.out.println("riding");
+    }
+    void bark(){
+        System.out.println("dog barks(parent class)");
+    }
+    int showcase(String call) {
+        this.call = call;
+        return 5;
+
+
     }
 
 }
