@@ -5,6 +5,8 @@ import java.util.TimerTask;
 
 public class Timer_Tasks {
     public static void main(String[] args) {
+        // --> didnt get the concept
+
         //timer = worker ,timertasks = work you want the timer to do
         //timer = class that schedules tasks at specific times or periodical
         //        usefull for: sending notifications, scheduled updates, repetitive actions
