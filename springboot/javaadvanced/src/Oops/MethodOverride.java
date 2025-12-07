@@ -5,7 +5,7 @@ public class MethodOverride extends Car {
     // means when we extend the classes and the methods are same , and if we want to print the perticular method we write @override above that method
     boolean alive ;
     @Override
-    void ride() {
+    public void ride() {
         System.out.println("this statements prints when it is called");
     }
     MethodOverride(){  // defalut name should be class name only
