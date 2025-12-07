@@ -17,7 +17,8 @@ public class Threading {
 
         Scanner scanner = new Scanner(System.in);
 
-        Runnable_threading runthread = new Runnable_threading();  //so this is the obj right
+        Runnable_threading runthread = new Runnable_threading("");  //so this is the obj right
+//        Thread thread1 = new Thread(new Runnable_threading());  --> we can write like this also
         Thread thread = new Thread(runthread);
 
         //->we use thread.setdeaemon before thread.start because one thread starts it doesnt recognizes

@@ -4,6 +4,12 @@ package Advanced;
 
 public class Runnable_threading implements  Runnable{
 
+    private final String item;
+
+    Runnable_threading(String item){
+        this.item = item;
+    }
+
     // then reason we wrote run() here because by default runnable is an interface , and void run() exsists in that interface so we have to override it
     @Override
     public void run(){
@@ -11,6 +17,9 @@ public class Runnable_threading implements  Runnable{
 
             try{
                 Thread.sleep(1000);
+                System.out.println(i);
+                //System.out.println(Thread.currentThread().getName() +" " + i );
+                //   doubt-->        | built in default method that comes from thread class
             }
             catch(InterruptedException e) {
                 System.out.println("thread was interupted");
