@@ -23,7 +23,7 @@ public class Multithreading {
 
         thread1.join(); //this will join and then the next thread will join and after these main thread will print
         thread2.join(); // this basically says to main thread that wait i am running after this you can continue
-
+        //join only affects to main method like it says stop for only main method for not other methods
 
         //gameoverwill print lasts
         System.out.println("GAME ENDS !");
