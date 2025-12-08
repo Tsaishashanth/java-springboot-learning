@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Admin_CodeRefactoring {
 
-    public static boolean login(Scanner sc) {
+    public static boolean login(Scanner sc) {  //instead of creating the scanner again we pass sc to the method
 
         System.out.println("Enter your username");
         String username = sc.nextLine();
@@ -28,7 +28,7 @@ public class Admin_CodeRefactoring {
         return true;
     }
 
-    public static void showmenu(Scanner sc) {
+    public static void showmenu(Scanner sc) {       // we use static so methods can be called directly from main without creating an object
         System.out.println("Please select one option:");
         System.out.println("Add book");
         System.out.println("Delete book");
@@ -51,7 +51,7 @@ public class Admin_CodeRefactoring {
 
         if (!login(sc)) {
             System.out.println("Login failed");
-            return;
+            return;   //just return means stop the main from now
         }
 
         showmenu(sc);

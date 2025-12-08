@@ -2,6 +2,7 @@ package Oops;
 
 public class Constructor_getset {
     //constructor = special method to initialize objects
+    //              constructer should have only classname
     //              you can pass arguments to a constructor
     //              and set up initial values
     public static void main(String[] args) {
