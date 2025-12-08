@@ -20,7 +20,7 @@ public class Admin {
             System.out.println("Enter your Password");
             String password = admin.nextLine();
 
-            System.out.println("Database check --> correct data (yes/no) :\"");
+            System.out.println("Database check --> correct data (yes/no) :");
             String store2 = admin.nextLine();
 
             if(store2.equals("yes")) {
