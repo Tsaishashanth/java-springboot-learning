@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 
-public class Login_signup extends Main {
+public class Login_signup extends Main{
 
     //in this class lets create login in and sign up
     public static void signup(Scanner sc) {
@@ -19,7 +19,7 @@ public class Login_signup extends Main {
 
         password.add(store2);
 
-        System.out.println("singup succesfull");
+        System.out.println("singnup succesfull");
 
     }
     public static void login(Scanner sc) {
