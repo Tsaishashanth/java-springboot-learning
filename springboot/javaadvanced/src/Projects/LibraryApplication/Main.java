@@ -5,12 +5,15 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
+
+    public static List<String> Existinguser = new ArrayList<>();
+    public static List<String> password = new ArrayList<>();
+    public static List<String> Booksname = new ArrayList<>();
+    public static List<String> admindata = new ArrayList<>();
+
     public static void main(String[] args) {
+
         //here in the main lets create a list which contains usernames and passwords
-        List<String> Existinguser = new ArrayList<>();
-        List<String> password = new ArrayList<>();
-        List<String> Newuser = new ArrayList<>();
-        List<String> Booksname = new ArrayList<>();
 
 
         Scanner sc = new Scanner(System.in);
