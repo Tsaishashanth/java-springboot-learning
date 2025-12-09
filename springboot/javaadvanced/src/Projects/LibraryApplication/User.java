@@ -2,7 +2,7 @@ package Projects.LibraryApplication;
 
 import java.util.Scanner;
 
-public class LoginUser {
+public class User {
     public static void main(String[] args) {
 
         Scanner login = new Scanner(System.in) ;
