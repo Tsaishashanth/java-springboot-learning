@@ -1,6 +1,6 @@
-# Java to Spring Boot Learning Journey
+# Java to Javaadvanced Learning Journey
 
-This repository contains my complete learning path from **Core Java → Advanced Java → Spring Core → Spring Boot**.  
+This repository contains my complete learning path from **Core Java → Advanced Java **.  
 I created this repo to track my progress, share my code, and help anyone who is also learning these topics.
 
 ---
@@ -13,13 +13,6 @@ I created this repo to track my progress, share my code, and help anyone who is 
    `javac FileName.java`  
 3. Run using:  
    `java FileName`
-
-### **Spring Boot**
-1. Install Java 17+  
-2. Open the project in IntelliJ or VS Code  
-3. Run using:  
-   `mvn spring-boot:run`  
-   or click **Run** in IDE
 
 ---
 
